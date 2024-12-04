@@ -42,17 +42,14 @@ namespace Imperium
         {
             return $this->name;
         }
-        
         public function setName($name)
         {
             $this->name = $name;
         }
-
         public function setAttack($attack)
         {
             $this->attack = $attack;
         }
-
         public function __toString()
         {
             return $this->name . " the Imperium Space Marine : " . $this->hp . "HP.";
@@ -97,7 +94,7 @@ namespace Chaos
         {
             return $this->name;
         }
-        
+
         public function setName($name)
         {
             $this->name = $name;
