@@ -52,7 +52,7 @@ namespace Imperium
         }
         public function __toString()
         {
-            return $this->name . " the Imperium Space Marine : " . $this->hp . "HP.";
+            return $this->name . " the Imperium Space Marine : " . $this->hp . " HP.";
         }
     }
 }
@@ -112,7 +112,7 @@ namespace Chaos
 
         public function __toString()
         {
-            return $this->name . " the Chaos Space Marine : " . $this->hp . "HP.";
+            return $this->name . " the Chaos Space Marine : " . $this->hp . " HP.";
         }
     }
 }

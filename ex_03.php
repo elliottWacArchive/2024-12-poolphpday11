@@ -55,7 +55,7 @@ class Soldier
 
     public function __toString()
     {
-        return $this->name . " the Imperium Space Marine : " . $this->hp . "HP.";
+        return $this->name . " the Imperium Space Marine : " . $this->hp . " HP.";
     }
 }
 
@@ -92,6 +92,11 @@ class Soldier
         return $this->name;
     }
 
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
     public function getAttack()
     {
         return $this->attack;
@@ -109,7 +114,7 @@ class Soldier
 
     public function __toString()
     {
-        return $this->name . " the Chaos Space Marine : " . $this->hp . "HP.";
+        return $this->name . " the Chaos Space Marine : " . $this->hp . " HP.";
     }
 }
 // $spaceMarine = new \Imperium\Soldier ("Gessart") ;

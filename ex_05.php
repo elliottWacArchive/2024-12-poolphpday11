@@ -1,6 +1,6 @@
 <?php
 
-class call_pangolin
+class Pangolin
 {
     private $_name;
 
