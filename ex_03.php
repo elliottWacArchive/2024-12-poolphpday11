@@ -28,6 +28,16 @@ class Soldier
         return $this->hp;
     }
 
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
     public function getAttack()
     {
         return $this->attack;
@@ -75,6 +85,11 @@ class Soldier
     public function getHp()
     {
         return $this->hp;
+    }
+
+    public function getName()
+    {
+        return $this->name;
     }
 
     public function getAttack()

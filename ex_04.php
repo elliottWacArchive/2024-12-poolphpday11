@@ -38,6 +38,16 @@ namespace Imperium
             $this->hp = $hp;
         }
 
+        public function getName()
+        {
+            return $this->name;
+        }
+        
+        public function setName($name)
+        {
+            $this->name = $name;
+        }
+
         public function setAttack($attack)
         {
             $this->attack = $attack;
@@ -81,6 +91,16 @@ namespace Chaos
         public function getAttack()
         {
             return $this->attack;
+        }
+
+        public function getName()
+        {
+            return $this->name;
+        }
+        
+        public function setName($name)
+        {
+            $this->name = $name;
         }
 
         public function setHp($hp)
