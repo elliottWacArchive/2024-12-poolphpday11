@@ -46,6 +46,9 @@ class Car implements iCars
 
 class BMW extends Car implements iCars
 {
+    private $_price;
+    private $_weight;
+
     public static function lessExpensive()
     {
         return 15000;
@@ -54,6 +57,9 @@ class BMW extends Car implements iCars
 
 class Suzuki extends Car implements iCars
 {
+    private $_price;
+    private $_weight;
+
     public static function lessExpensive()
     {
         return 5000;
